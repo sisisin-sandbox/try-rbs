@@ -1,0 +1,13 @@
+# Classes
+class Bar
+  def initialize: -> Integer
+                | -> Integer
+  attr_reader baz: Integer
+  def gen: -> Hash[untyped, untyped]
+         | -> Hash[untyped, untyped]
+end
+
+class Foo
+  def initialize: -> String
+  attr_reader bar: String
+end
